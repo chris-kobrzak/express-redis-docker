@@ -5,8 +5,6 @@ redis:
     - 6379
 app:
   build: ./
-  volumes:
-    - ./:/var/www/app
   links:
     - redis
   ports:
