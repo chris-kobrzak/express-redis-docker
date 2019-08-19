@@ -12,6 +12,8 @@ It will then be started on port 3000.
 
 ```sh
 curl http://localhost:3000
+# or
+curl http://localhost:3001
 ```
 
 ## Storing Data
