@@ -22,7 +22,7 @@ app.get('/:key', async (request, response) => {
 })
 
 app.get('/', (request, response) => {
-  return response.send('Hello world')
+  return response.send('Application is running')
 })
 
 const port = process.env.PORT || 3000
